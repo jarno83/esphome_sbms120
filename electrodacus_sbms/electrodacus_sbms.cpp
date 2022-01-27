@@ -1,3 +1,4 @@
+#include "sbmsData.hpp"
 #include "electrodacus_sbms.h"
 #include "esphome/core/log.h"
 #include <vector>
