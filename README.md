@@ -1,2 +1,3 @@
 # esphome_sbms120
-Electrodacus SBMS files for ESPHome firmware
+WIP - Not ready
+Electrodacus SBMS files for ESPHome firmware.
