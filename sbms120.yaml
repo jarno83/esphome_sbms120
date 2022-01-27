@@ -1,7 +1,7 @@
 esphome:
   name: sbms120
 esp32:
-  board: esp32dev
+  board: nodemcu-32s
   framework:
     type: arduino
 
@@ -24,13 +24,14 @@ wifi:
     password: "xxxxxxxxxxxx"
 
 captive_portal:
+
 electrodacus_sbms:
   update_interval: 20s
 
 uart:
   tx_pin: GPIO1
   rx_pin: GPIO3
-  baud_rate: 9600
+  baud_rate: 921600
 
 sensor:
   - platform: electrodacus_sbms
