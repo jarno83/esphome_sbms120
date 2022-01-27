@@ -1,5 +1,4 @@
 # WIP - esphome_sbms120
 
-Electrodacus SBMS files for ESPHome firmware.
-Using ESPHome Daly_Bms files as a base and combining it with electrodacus-esp32 files from 
-https://github.com/armageddon421/electrodacus-esp32.git
+Firmware for the esp32 on the WiFi-addon of the [electrodacus BMS](http://www.electrodacus.com/). 
+Using ESPHome Daly_Bms files(https://esphome.io/components/sensor/daly_bms.html) as a base and combining it with [electrodacus-esp32](https://github.com/armageddon421/electrodacus-esp32.git)
